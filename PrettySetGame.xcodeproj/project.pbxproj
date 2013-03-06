@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE0053AF16E20CB30014477B /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0053A616E20CB30014477B /* Card.m */; };
+		EE0053B016E20CB30014477B /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0053A816E20CB30014477B /* Deck.m */; };
+		EE0053B116E20CB30014477B /* SetCard.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0053AA16E20CB30014477B /* SetCard.m */; };
+		EE0053B216E20CB30014477B /* SetCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0053AC16E20CB30014477B /* SetCardDeck.m */; };
+		EE0053B316E20CB30014477B /* SetCardGame.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0053AE16E20CB30014477B /* SetCardGame.m */; };
+		EE0053B716E20CC80014477B /* SetCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0053B616E20CC80014477B /* SetCardView.m */; };
+		EE0053BA16E20D250014477B /* SetCardCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0053B916E20D250014477B /* SetCardCollectionViewCell.m */; };
+		EE0053BD16E217900014477B /* SetCardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0053BC16E217900014477B /* SetCardGameViewController.m */; };
 		EE6A8E2F16E20B9A00859433 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6A8E2E16E20B9A00859433 /* UIKit.framework */; };
 		EE6A8E3116E20B9A00859433 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6A8E3016E20B9A00859433 /* Foundation.framework */; };
 		EE6A8E3316E20B9A00859433 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6A8E3216E20B9A00859433 /* CoreGraphics.framework */; };
@@ -17,10 +25,27 @@
 		EE6A8E4316E20B9A00859433 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6A8E4216E20B9A00859433 /* Default@2x.png */; };
 		EE6A8E4516E20B9A00859433 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6A8E4416E20B9A00859433 /* Default-568h@2x.png */; };
 		EE6A8E4816E20B9A00859433 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6A8E4616E20B9A00859433 /* MainStoryboard.storyboard */; };
-		EE6A8E4B16E20B9A00859433 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6A8E4A16E20B9A00859433 /* ViewController.m */; };
+		EE6A8E4B16E20B9A00859433 /* CardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6A8E4A16E20B9A00859433 /* CardGameViewController.m */; };
+		EEEE135016E47225000A9A3C /* CardGameMove.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEE134F16E47224000A9A3C /* CardGameMove.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE0053A516E20CB30014477B /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		EE0053A616E20CB30014477B /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		EE0053A716E20CB30014477B /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		EE0053A816E20CB30014477B /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		EE0053A916E20CB30014477B /* SetCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetCard.h; sourceTree = "<group>"; };
+		EE0053AA16E20CB30014477B /* SetCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetCard.m; sourceTree = "<group>"; };
+		EE0053AB16E20CB30014477B /* SetCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetCardDeck.h; sourceTree = "<group>"; };
+		EE0053AC16E20CB30014477B /* SetCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetCardDeck.m; sourceTree = "<group>"; };
+		EE0053AD16E20CB30014477B /* SetCardGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetCardGame.h; sourceTree = "<group>"; };
+		EE0053AE16E20CB30014477B /* SetCardGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetCardGame.m; sourceTree = "<group>"; };
+		EE0053B516E20CC80014477B /* SetCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetCardView.h; sourceTree = "<group>"; };
+		EE0053B616E20CC80014477B /* SetCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetCardView.m; sourceTree = "<group>"; };
+		EE0053B816E20D250014477B /* SetCardCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetCardCollectionViewCell.h; sourceTree = "<group>"; };
+		EE0053B916E20D250014477B /* SetCardCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetCardCollectionViewCell.m; sourceTree = "<group>"; };
+		EE0053BB16E217900014477B /* SetCardGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetCardGameViewController.h; sourceTree = "<group>"; };
+		EE0053BC16E217900014477B /* SetCardGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetCardGameViewController.m; sourceTree = "<group>"; };
 		EE6A8E2A16E20B9A00859433 /* PrettySetGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrettySetGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE6A8E2E16E20B9A00859433 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EE6A8E3016E20B9A00859433 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -35,8 +60,10 @@
 		EE6A8E4216E20B9A00859433 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		EE6A8E4416E20B9A00859433 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		EE6A8E4716E20B9A00859433 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		EE6A8E4916E20B9A00859433 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EE6A8E4A16E20B9A00859433 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE6A8E4916E20B9A00859433 /* CardGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameViewController.h; sourceTree = "<group>"; };
+		EE6A8E4A16E20B9A00859433 /* CardGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameViewController.m; sourceTree = "<group>"; };
+		EEEE134E16E47224000A9A3C /* CardGameMove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardGameMove.h; sourceTree = "<group>"; };
+		EEEE134F16E47224000A9A3C /* CardGameMove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardGameMove.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +80,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE0053A416E20CB30014477B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				EE0053A516E20CB30014477B /* Card.h */,
+				EE0053A616E20CB30014477B /* Card.m */,
+				EE0053A716E20CB30014477B /* Deck.h */,
+				EE0053A816E20CB30014477B /* Deck.m */,
+				EE0053A916E20CB30014477B /* SetCard.h */,
+				EE0053AA16E20CB30014477B /* SetCard.m */,
+				EE0053AB16E20CB30014477B /* SetCardDeck.h */,
+				EE0053AC16E20CB30014477B /* SetCardDeck.m */,
+				EE0053AD16E20CB30014477B /* SetCardGame.h */,
+				EE0053AE16E20CB30014477B /* SetCardGame.m */,
+				EEEE134E16E47224000A9A3C /* CardGameMove.h */,
+				EEEE134F16E47224000A9A3C /* CardGameMove.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		EE6A8E1F16E20B9A00859433 = {
 			isa = PBXGroup;
 			children = (
@@ -85,9 +131,16 @@
 			children = (
 				EE6A8E3D16E20B9A00859433 /* AppDelegate.h */,
 				EE6A8E3E16E20B9A00859433 /* AppDelegate.m */,
+				EE6A8E4916E20B9A00859433 /* CardGameViewController.h */,
+				EE6A8E4A16E20B9A00859433 /* CardGameViewController.m */,
 				EE6A8E4616E20B9A00859433 /* MainStoryboard.storyboard */,
-				EE6A8E4916E20B9A00859433 /* ViewController.h */,
-				EE6A8E4A16E20B9A00859433 /* ViewController.m */,
+				EE0053A416E20CB30014477B /* model */,
+				EE0053B816E20D250014477B /* SetCardCollectionViewCell.h */,
+				EE0053B916E20D250014477B /* SetCardCollectionViewCell.m */,
+				EE0053BB16E217900014477B /* SetCardGameViewController.h */,
+				EE0053BC16E217900014477B /* SetCardGameViewController.m */,
+				EE0053B516E20CC80014477B /* SetCardView.h */,
+				EE0053B616E20CC80014477B /* SetCardView.m */,
 				EE6A8E3516E20B9A00859433 /* Supporting Files */,
 			);
 			path = PrettySetGame;
@@ -175,7 +228,16 @@
 			files = (
 				EE6A8E3B16E20B9A00859433 /* main.m in Sources */,
 				EE6A8E3F16E20B9A00859433 /* AppDelegate.m in Sources */,
-				EE6A8E4B16E20B9A00859433 /* ViewController.m in Sources */,
+				EE6A8E4B16E20B9A00859433 /* CardGameViewController.m in Sources */,
+				EE0053AF16E20CB30014477B /* Card.m in Sources */,
+				EE0053B016E20CB30014477B /* Deck.m in Sources */,
+				EE0053B116E20CB30014477B /* SetCard.m in Sources */,
+				EE0053B216E20CB30014477B /* SetCardDeck.m in Sources */,
+				EE0053B316E20CB30014477B /* SetCardGame.m in Sources */,
+				EE0053B716E20CC80014477B /* SetCardView.m in Sources */,
+				EE0053BA16E20D250014477B /* SetCardCollectionViewCell.m in Sources */,
+				EE0053BD16E217900014477B /* SetCardGameViewController.m in Sources */,
+				EEEE135016E47225000A9A3C /* CardGameMove.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +354,7 @@
 				EE6A8E5016E20B9A00859433 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
