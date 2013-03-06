@@ -45,13 +45,14 @@ enum {NO_FILL = 1, OPAQUE_FILL, SHADED_FILL};
     [roundedRect addClip];
     [[UIColor whiteColor] setFill];
     if (self.selected)
-        roundedRect.lineWidth = self.bounds.size.width * LINE_WIDTH_SCALE * 10;
+        roundedRect.lineWidth = self.bounds.size.width * LINE_WIDTH_SCALE * 5;
     else
         roundedRect.lineWidth = self.bounds.size.width * LINE_WIDTH_SCALE;
     [[UIColor blackColor] setStroke];
     [roundedRect fill];
     [roundedRect stroke];
     [self drawShapes];
+
 }
 #define MARGIN_SCALE 0.10
 #define SYMBOL_LINE_WIDTH 0.02
